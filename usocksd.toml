@@ -1,0 +1,9 @@
+[log]
+level = "info"                     # critical, error, warning, info, debug
+format = "plain"                   # plain, logfmt, json
+
+[incoming]
+port = 1080
+
+[outgoing]
+deny_ports = [22, 25]              # Black list of outbound ports
